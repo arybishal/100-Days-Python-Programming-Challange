@@ -1,0 +1,64 @@
+# # numeric data type 
+# #     interger (int)
+# #     number without decimal
+# #     eg: 2,3,123,-8-12
+# x = 2
+# print(x)
+# print(type(x))
+
+# # floating point(float)
+# #number with decimal 
+# # e.g: 2.5,-6.3,1.005
+# y = 2.6
+# print(y)
+# print(type(y))
+
+# #complex 
+# #represents complex number 
+# #e.g: 2+3j,-2+7j
+# x = 2+7j
+# print(x)
+# print(type(x))
+
+# #String(str)
+# x="buddha was born in nepal"
+# print(x)
+# print(type(x))
+# x = '5'
+# print(type(x))
+
+# #sequence type
+#     #list 
+#     #tuple
+#     #sets 
+
+# #mapping 
+#     #dictionary 
+
+# #boolean(bool)
+# x = 5<3
+# print(x)
+# print(type(x))
+
+# # 1) Variable name should always start with 
+# #character, symbols and numbers cannot be used 
+# #exception _
+
+# _ = "binil"
+# print(_)
+
+# #2) variable name should not contain whitespaces and symbols in between 
+# var_name = "hello"
+# print(var_name)
+
+# x = 5
+# y = 10
+# z = x+y
+# print(z)
+
+# x=y=20
+# print(x)
+# print(y)
+
+x,y,z = 5,10,15
+print(x,y,z)
